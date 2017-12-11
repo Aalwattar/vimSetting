@@ -70,7 +70,7 @@ set hlsearch
 set diffopt+=vertical
 
 "nnoremap gb :buffer<CR>:sb<Space>
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+" set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 
 "Wild ingore these files
@@ -134,6 +134,7 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'vim-syntastic/syntastic'
+Plugin 'git://github.com/peterhoeg/vim-qml'
 "Plugin 'https://github.com/will133/vim-dirdiff'
 
 " Optional:
@@ -218,5 +219,5 @@ noremap <F5> :buffers<CR>:buffer<Space>
 
 
 if &diff
-"    colorscheme industry
+    colorscheme industry
 endif
